@@ -1,1 +1,31 @@
 
+body{font-family:Arial;margin:20px;background:#f5f5f5}
+nav a{margin-right:15px}
+.dashboard{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+margin:15px 0;
+}
+.dashboard div{
+background:white;
+padding:10px;
+border:1px solid #ccc;
+}
+svg rect{fill:#ececec;stroke:black}
+.blue{stroke:blue;stroke-width:4}
+.green{stroke:green;stroke-width:4}
+.orange{stroke:orange;stroke-width:4}
+.purple{stroke:purple;stroke-width:4}
+.animate{
+stroke-dasharray:8;
+animation:flow 1s linear infinite;
+}
+@keyframes flow{
+to{stroke-dashoffset:-16;}
+}
+canvas{
+background:white;
+border:1px solid #aaa;
+}
+

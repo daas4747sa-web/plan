@@ -1,1 +1,6 @@
 
+{
+ "TE-1008":{"sensor":"Pt100","destination":"TR-1008"},
+ "TE-101A":{"sensor":"TC","destination":"TIC-101A"}
+}
+
